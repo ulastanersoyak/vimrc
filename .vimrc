@@ -24,8 +24,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'preservim/tagbar'
 
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tpope/vim-commentary'
 
@@ -45,6 +43,8 @@ set incsearch
 set hlsearch             
 set ignorecase          
 set smartcase          
+
+colorscheme habamax
 
 set tabstop=4                 
 set softtabstop=4             
@@ -97,10 +97,6 @@ nnoremap <leader>c :nohl<CR>
 " ===================================================================
 " plugin config
 " ===================================================================
-" airline
-let g:airline_powerline_fonts = 1
-let g:airline_theme = 'gruvbox'
-let g:airline#extensions#tabline#enabled = 1
 
 " nerdtree
 let g:NERDTreeShowHidden = 1
