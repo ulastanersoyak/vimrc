@@ -27,6 +27,8 @@ Plugin 'preservim/tagbar'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tpope/vim-commentary'
 
+Plugin 'kergoth/vim-bitbake'
+
 call vundle#end()             
 filetype plugin indent on    
 
@@ -43,6 +45,8 @@ set incsearch
 set hlsearch             
 set ignorecase          
 set smartcase          
+
+set guicursor=
 
 colorscheme habamax
 
@@ -115,3 +119,4 @@ let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+
