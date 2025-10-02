@@ -98,6 +98,9 @@ nnoremap <leader>q :q<CR>
 " clear search highlighting
 nnoremap <leader>c :nohl<CR>
 
+" Show clangd hover info via YCM
+nnoremap K :YcmCompleter GetDoc<CR>
+
 " ===================================================================
 " plugin config
 " ===================================================================
